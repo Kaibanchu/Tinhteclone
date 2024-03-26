@@ -8,11 +8,8 @@ const Header = () => {
     <>
       <div className="grid grid-cols-5 px-6 py-6 ">
         <Logo />
-
         <Search />
-
         <Profile />
-        
       </div>
     </>
   );

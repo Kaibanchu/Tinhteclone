@@ -2,9 +2,6 @@ import React from "react";
 import {
   DropdownMenu,
   DropdownMenuContent,
-  DropdownMenuItem,
-  DropdownMenuLabel,
-  DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 
@@ -12,7 +9,7 @@ const Profile = () => {
   return (
     <div className=" col-span-2 flex  justify-end">
       <DropdownMenu>
-        <DropdownMenuTrigger className="flex flex-row justify-start align-middle gap-2  w-24 h-10 bg-gray-300 rounded-3xl pt-1 pl-2 ">
+        <DropdownMenuTrigger className="flex flex-row justify-start align-middle gap-2  w-24 h-10 bg-gray-200 rounded-3xl pt-1 pl-2 ">
           <svg 
             width="32"
             height="32"
@@ -33,7 +30,9 @@ const Profile = () => {
 
         </DropdownMenuTrigger>
         <DropdownMenuContent className=" w-560 h-120 p-3 bg-white mr-5">
-          <button className="p-3">Đăng nhập tài khoản</button> <br />
+          <button className="p-3">
+            Đăng nhập tài khoản
+            </button> <br />
           <button className="p-3">Đăng ký tài khoản mới</button>
         </DropdownMenuContent>
       </DropdownMenu>
